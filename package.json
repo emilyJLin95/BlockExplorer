@@ -1,0 +1,37 @@
+{
+  "type": "module",
+  "name": "blockexplorer",
+  "version": "1.0.0",
+  "description": "A CLI that provides transaction data over a range of blocks",
+  "main": "bin/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "bin": {
+    "blockexplr": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emilyJLin95/BlockExplorer.git"
+  },
+  "keywords": [
+    "blockchain",
+    "cryptocurrency",
+    "Ethereum"
+  ],
+  "author": "Emily",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emilyJLin95/BlockExplorer/issues"
+  },
+  "homepage": "https://github.com/emilyJLin95/BlockExplorer#readme",
+  "dependencies": {
+    "cli-table": "^0.3.11",
+    "lodash": "^4.17.21",
+    "web3": "^1.6.1",
+    "yargs": "^17.3.1"
+  }
+}
